@@ -6,7 +6,7 @@ namespace BuchhaltungsProjekt
     {
         static void Main(string[] args)
         {
-            Menue StartMenue = new StartMenu();
+            Menu StartMenue = new StartMenu();
         }
     }
 }

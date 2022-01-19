@@ -33,11 +33,11 @@ namespace BuchhaltungsProjekt
                 switch (input)
                 {
                     case "1":
-                        //nextMenu = new NewTransactionMenu();
+                        nextMenu = new NewTransactionMenu();
                         break;
 
                     case "2":
-                        //nextMenu = new ShowTransactionMenu();
+                        nextMenu = new ShowTransactionMenu();
                         break;
 
                     case "3":

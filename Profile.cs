@@ -23,5 +23,12 @@ namespace BuchhaltungsProjekt
         {
             throw new NotImplementedException();
         }
+
+        public void AddTransaction(Transaction transaction)
+        {
+            Transactions.Add(transaction);
+            Balance += transaction.Amount;
+            ProfileManager.SaveProfile(this);
+        }
     }
 }
